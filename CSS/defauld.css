@@ -1,5 +1,5 @@
 /* DEFAULD: */
-*{padding: 0; margin: 0; color:}
+*{padding: 0; margin: 0;}
 
 h1,h2,h2{color:var(--COLOR-WHITE);}
 
@@ -16,7 +16,7 @@ h1,h2,h2{color:var(--COLOR-WHITE);}
 .INSTAGRAM{box-sizing: border-box;background-image: var(--INSTAGRAM);background-repeat: no-repeat;background-size: 100% 100%;}
 .MAIL{box-sizing: border-box;background-image: var(--MAIL);background-repeat: no-repeat;background-size: 100% 100%;}
 .DECO{box-sizing: border-box;background-image: var(--DECO);background-repeat: no-repeat;background-size: 100% 100%;}
-.BOX{box-sizing: border-box;background-image: var(--BOX);background-repeat: no-repeat;background-size: 100% 100%;}
+.BOX{ box-sizing: border-box; background-image: var(--BOX); background-repeat: no-repeat; background-size: 100% 100%; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -ms-border-radius: 18px; -o-border-radius: 18px; }
 
 .TEXT-G{color: var(--COLOR-GOLD);}.TEXT-W{color: var(--COLOR-WHITE);}
 
