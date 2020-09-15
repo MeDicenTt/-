@@ -1,0 +1,154 @@
+/* DEFAULD: PERFECTO  REVIEW:*/
+html{
+  background-color: unset;
+}
+body{
+  background-color: rgba(0, 0, 0, 0.863);
+  color: white;
+  margin: auto;
+
+  width: 80vw;
+  min-width: 80vw;
+  max-width: 80vw; 
+  height: 100%;
+  min-height: 100vh;
+  max-height: 100%; 
+}
+
+/* DEFAULD: REVIEW:*/
+
+/* HEADER:*/
+header{
+  text-align: center;
+  margin-bottom: 5px;
+
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+/* MAIN:*/
+main{
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-bottom: 5px;
+}
+
+/* FOOTER:*/
+footer{
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+/* REVIEW: CARTAS*/
+/* .BOX-CARTA{
+} */
+.CARTA{
+  border: solid 3px var(--COLOR-GOLD);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.BOX-CARTA:hover figure{
+  transition: all 0.3s ease;
+  transform: perspective(600px) rotateY(180deg);
+  -webkit-transform: perspective(600px) rotateY(180deg);
+  -moz-transform: perspective(600px) rotateY(180deg);
+  -ms-transform: perspective(600px) rotateY(180deg);
+  -o-transform: perspective(600px) rotateY(180deg);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.BOX-CARTA:hover figure>figcaption{
+  backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+}
+figure>img{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transform: perspective(600px) rotateY(0deg);
+  -webkit-transform: perspective(600px) rotateY(0deg);
+  -moz-transform: perspective(600px) rotateY(0deg);
+  -ms-transform: perspective(600px) rotateY(0deg);
+  -o-transform: perspective(600px) rotateY(0deg);
+}
+figure.CARTA>figcaption{
+  top: 0;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+  -o-border-radius:50%;
+  font-size: 8px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  -webkit-transform: perspective(600px) rotateY(180deg);
+  -moz-transform: perspective(600px) rotateY(180deg);
+  -ms-transform: perspective(600px) rotateY(180deg);
+  -o-transform: perspective(600px) rotateY(180deg);
+  transform: perspective(600px) rotateY(180deg);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  padding: 0;
+  margin: 0;
+}
+.FLEXBOX-ROW-W{
+  justify-content: center;
+}
+.BOX-3{
+  padding: 10px;
+}
+
+/* NAV:*/
+.MENU, .SUBMENU{
+  color:var(--COLOR-GOLD);
+  list-style: none;  
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+nav{
+  top: 7%;
+  left: -10%;
+}
+.SUBMENU{
+  
+  border: springgreen solid 1px;
+  top: 10px;
+  left: 140px;
+  visibility: hidden;
+}
+.PRINCIPAL:hover .SUBMENU{
+  visibility: visible;
+}
+.MENU>li{
+  margin-bottom: 10px;
+}
+li.DECO-4{
+  text-shadow: red 2px 0px 5px 2px;
+  font-size: 14px;
+  font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+  min-width: 100px;
+  max-width: 100px;
+  min-height: 30px;
+  max-height: 30px;
+  justify-content: center;
+  align-items: center;
+}

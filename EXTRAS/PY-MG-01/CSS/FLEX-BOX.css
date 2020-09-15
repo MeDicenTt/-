@@ -1,0 +1,62 @@
+/* DEFAULD: NOTE: DEFAULD: */
+/*? CAJA FLEX  /  FLEX-BOX */
+/* DEFAULD: NOTE: DEFAULD: */
+
+.FLEX-BOX{
+  display: flex;
+}
+
+
+
+/* ? MANTENER EL ORDEN   NOTE:*/
+
+
+
+
+/* REVIEW: WRAP */
+.FLEXBOX-ROW-W{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.FLEXBOX-COLUMN-W{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+}
+.FLEXBOX-ROW-W-R{
+  display: flex;
+  flex-direction:row-reverse;
+  flex-wrap: wrap;
+}
+.FLEXBOX-COLUMN-W-R{
+  display: flex;
+  flex-direction:column-reverse;
+  flex-wrap: wrap;
+}
+
+
+/* REVIEW: NO WRAP */
+.FLEXBOX-ROW-NW{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.FLEXBOX-COLUMN-NW{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+}
+.FLEXBOX-ROW-NW-R{
+  display: flex;
+  flex-direction:row-reverse;
+  flex-wrap: nowrap;
+}
+.FLEXBOX-COLUMN-NW-R{
+  display: flex;
+  flex-direction:column-reverse;
+  flex-wrap: nowrap;
+}
+
+
+/* DEFAULD: NOTE: DEFAULD: */

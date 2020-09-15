@@ -1,0 +1,401 @@
+/* REVIEW: NOTE: ERROR:*/
+/** PALETA DE COLORES Y MAS */
+/* ? CURIOSIDADES */
+/* ! USAR EL CONTENIDO */
+/* CON CAUTELA O DISCRECION */
+/* HEADER: NAV: MAIN: AUX:*/
+/* DEFAULD:*//* DEFAULD:*/
+
+*,html{
+  padding: 0;
+  margin: 0;
+}
+body{
+  box-sizing: border-box;
+}
+
+/* DEFAULD:*/
+/* 
+html{background-color: rgba(0, 0, 0, 0.863);}
+body{border: solid 3px rgb(151, 0, 0); margin: auto;}
+ */
+
+/* HEADER:*/
+header{border: solid rgb(255, 255, 255) 2px;}
+
+/* NAV:*/
+/* nav{border: solid 3px rgb(255, 255, 255);} */
+
+
+/* MAIN:*/
+main{border: solid rgb(255, 255, 255) 2px;}
+
+
+/* FOOTER:*/
+footer{border: solid rgb(255, 255, 255) 2px;}
+
+
+
+/* MEDIA: */
+
+/* MEDIA: */
+
+
+
+/* TAMOÑOS */
+.xxsm{/* 20x20 */
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  max-width: 20px;
+  max-height: 20px;
+} 
+.xsm{/* 40x40 */
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  max-width: 40px;
+  max-height: 40px;
+}
+.sm{/* 80x80 */
+  width: 80px;
+  height: 80px;
+  min-width: 80px;
+  min-height: 80px;
+  max-width: 80px;
+  max-height: 80px;
+}
+.xm{/* 100x100 */
+  width: 100px;
+  height: 100px;
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+}
+.m{/* 200x200 */
+  width: 200px;
+  height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  max-width: 200px;
+  max-height: 200px;
+}
+.xlg{/* 600x600 */
+  width: 600px;
+  height: 600px;
+  min-width: 600px;
+  min-height: 600px;
+  max-width: 600px;
+  max-height: 600px;
+}
+.lg{/* 800x800 */
+  width: 800px;
+  height: 800px;
+  min-width: 800px;
+  min-height: 800px;
+  max-width: 800px;
+  max-height: 800px;
+}
+.full{/* 100% 100% */ 
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.full-vw{
+  width:100%;
+  min-width:100%;
+  max-width: 100%;
+}
+
+
+/* DEFAULD:*/
+:root{ 
+  --COLOR-GOLD: #ffc526;
+  --COLOR-GOLD-2: rgb(219, 201, 150);
+  --COLOR-GREY: rgb(236, 236, 236);
+  --COLOR-BODY: rgb(37, 36, 36);
+  --COLOR-BG-LIGHT:rgb(179, 179, 179);
+  --COLOR-BG-DARK:rgb(37, 36, 36);
+  
+  --SHADOW-LIGHT:rgba(255, 255, 255, 0.904);
+  --SHADOW-DARK:rgba(0, 0, 0, 0.918);
+  --SHADOW-DARK:rgba(158, 116, 0, 0.856);
+
+/*--SHADOW-GOLD:;
+  --BOTTON-LIGHT;
+  --BOTTON-DARK:; */
+
+  --VS: url(../IMG/VS.jpg);
+  --PS: url(../IMG/PS.png);  
+  --HTML5: url(../IMG/HTML5.png);
+  --CSS3: url(../IMG/CSS3.png);  
+  --JS: url(../IMG/JS.png);
+  --INSTAGRAM: url(../IMG/INSTAGRAM.png);
+  --WS: url(../IMG/WS.png);
+  --MAIL: url(../IMG/MAIL.png);
+  --FIRMA: url(../IMG/FIRMA.png);
+
+  --BOX: url(../IMG/BOX.jpg);
+  --BOX-1: url(../IMG/BOX-1.jpg);
+  --BOX-2: url(../IMG/BOX-2.jpg);
+  --BOX-3: url(../IMG/BOX-3.jpg);
+  --BOX-4: url();
+  --BOX-5: url();
+  --BOX-6: url();
+  --BOX-7: url();
+  --BOX-8: url();
+  --BOX-9: url();
+  --BOX-10: url();
+
+
+  --DECO-1: url(../IMG/DECO-1.png);
+  --DECO-2: url(../IMG/DECO-2.png);
+  --DECO-3: url(../IMG/DECO-3.png);
+  --DECO-4: url(../IMG/DECO-4.png);
+  --DECO-5: url();
+
+
+  --CARD-1: url(../IMG/CARD_1.png);
+  --CARD-2: url(../IMG/CARD-2.png);
+  --CARD-3: url(../IMG/CARD-3.png);
+  --CARD-4: url(../IMG/CARD-4.png);
+  --CARD-5: url(../IMG/CARD-5.png);
+  --CARD-6: url();
+  --CARD-7: url();
+  --CARD-8: url();
+  --CARD-9: url();
+  --CARD-10: url();
+ 
+  
+  --ICON-GRID: url();
+  --ICON-1: url(../IMG/ICON-1.png);
+  --ICON-2: url(../IMG/ICON-2.png);
+  --ICON-3: url();
+  
+}
+/* DEFAULD:*/
+
+
+/* FOOTER: MI FIRMA  FOOTER:*/
+figure.FIRMA{
+  position: relative;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 5px;
+  border-radius: 48%;
+  -webkit-border-radius: 48%;
+  -moz-border-radius: 48%;
+  -ms-border-radius: 48%;
+  -o-border-radius: 48%;
+}
+figcaption.DECO-1{
+  position: absolute;
+  box-sizing: border-box;
+  top: 17.8px;
+  left: -4.2px;
+  min-width: 88px;
+
+  padding: 0;
+  margin: 0;
+}
+.FOOTER{
+  color:var(--COLOR-GREY);
+  padding: 0;
+  /* text-indent: 50px; */
+}
+.FOOTER a{
+  list-style: none;
+  text-decoration: none;
+  color:var(--COLOR-GREY);
+  font-size: 1em;
+}
+.FOOTER a:hover{
+  color:var(--COLOR-GOLD);
+  text-decoration:none;
+}
+
+
+/* REVIEW:--- ASIGNANDO IMAGENES ------------*/
+/*             CLASES: IMAGENES              */ 
+/* REVIEW:--- ASIGNANDO IMAGENES ------------*/
+
+
+
+/* PROFECIONAL */
+.VS{
+  box-sizing: border-box;
+  background-image: var(--VS);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.PS{
+  box-sizing: border-box;
+  background-image: var(--PS);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;  
+}
+.HTML5{
+  box-sizing: border-box;
+  background-image: var(--HTML5);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.CSS3{
+  box-sizing: border-box;
+  background-image: var(--CSS3);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.JS{
+  box-sizing: border-box;
+  background-image: var(--JS);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.FIRMA{
+  box-sizing: border-box;
+  background-image: var(--FIRMA);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.WS{
+  box-sizing: border-box;
+  background-image: var(--WS);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.INSTAGRAM{
+  box-sizing: border-box;
+  background-image: var(--INSTAGRAM);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.MAIL{
+  box-sizing: border-box;
+  background-image: var(--MAIL);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* CARTAS */
+.CARD-1{
+  box-sizing: border-box;
+  background-image: var(--CARD-1);
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+}
+.CARD-2{
+  box-sizing: border-box;
+  background-image: var(--CARD-2);
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+}
+.CARD-3{
+  box-sizing: border-box;
+  background-image: var(--CARD-3);
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+}
+.CARD-4{
+  box-sizing: border-box;
+  background-image: var(--CARD-4);
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+}
+.CARD-5{
+  box-sizing: border-box;
+  background-image: var(--CARD-5);
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+}
+
+/* CAJAS */
+.BOX{
+  box-sizing: border-box;
+  background-image: var(--BOX);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: cover;
+}
+.BOX-1{
+  box-sizing: border-box;
+  background-image: var(--BOX-1);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: cover;
+}
+.BOX-2{
+  box-sizing: border-box;
+  background-image: var(--BOX-2);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: cover;
+}
+.BOX-3{
+  box-sizing: border-box;
+  background-image: var(--BOX-3);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: cover;
+}
+.BOX-4{
+  box-sizing: border-box;
+  background-image: var(--BOX-4);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: cover;
+}
+
+
+/* DECORADO */
+.DECO-1{
+  box-sizing: border-box;
+  background-image: var(--DECO-1);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.DECO-2{
+  box-sizing: border-box;
+  background-image: var(--DECO-2);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.DECO-3{
+  box-sizing: border-box;
+  background-image: var(--DECO-3);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.DECO-4{
+  box-sizing: border-box;
+  background-image: var(--DECO-4);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.DECO-5{
+  box-sizing: border-box;
+  background-image: var();
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+/* NOTE: DISPLAY */
+.ENLINEA{
+  display: inline-block;
+}
+.ENBLOQUE{
+  display: block;
+}
+.RELATIVO{
+  position: relative;
+}
+.ABSOLUTO{
+  position: absolute;
+}
