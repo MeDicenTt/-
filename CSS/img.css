@@ -14,3 +14,7 @@
 .BOX1{ box-sizing: border-box; background-image: var(--BOX); background-repeat: no-repeat; background-size: 100% 100%; transform:rotate(180deg) ; -webkit-transform:rotate(180deg) ; -moz-transform:rotate(180deg) ; -ms-transform:rotate(180deg) ; -o-transform:rotate(180deg) ; }
 .BOX2{box-sizing: border-box; background-image: var(--BOX); background-repeat: no-repeat; background-size: 100% 100%;}
 .MAIN{box-sizing: border-box; background-image: var(--MAIN); background-repeat: no-repeat; background-size: 100% 100%;}
+
+.NOROTATE{ transform:rotate(180deg) ; -webkit-transform:rotate(180deg) ; -moz-transform:rotate(180deg) ; -ms-transform:rotate(180deg) ; -o-transform:rotate(180deg) ;}
+
+.TEXT-G{color: var(--COLOR-GOLD);}.TEXT-W{color: var(--COLOR-WHITE);}

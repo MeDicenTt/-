@@ -5,30 +5,27 @@ body{ background-color: rgba(0, 0, 0, 0.863);color: white;margin: auto;width: 80
 
 header,main,footer{ border: solid rgb(255, 255, 255) 2px; border-radius:15px ; -webkit-border-radius:15px ; -moz-border-radius:15px ; -ms-border-radius:15px ; -o-border-radius:15px ;margin-bottom: 5px;}
 
-
-
-
-
-
-
-
-header{text-align: center;}
 main{min-height: 400px; padding: 8px;}
 
 .mensaje{ border-radius: 15px;  background: rgba(0, 0, 0, 0.433);  margin-bottom: 15px;  -webkit-border-radius: 15px;  -moz-border-radius: 15px;  -ms-border-radius: 15px;  -o-border-radius: 15px;  padding: 10px;}
-.mensaje>p{  text-align: justify;}
+.mensaje>p{ text-align: justify;}
+
+
+
+
+
+
 
 .proyecto{ border-radius:50% ; -webkit-border-radius:50% ; -moz-border-radius:50% ; -ms-border-radius:50% ; -o-border-radius:50% ; border:solid var(--COLOR-WHITE) 2px; display: inline;min-width: 50px;min-height: 50px;}
 
 
 
-.NOROTATE{ transform:rotate(180deg) ; -webkit-transform:rotate(180deg) ; -moz-transform:rotate(180deg) ; -ms-transform:rotate(180deg) ; -o-transform:rotate(180deg) ;}
 
-.TEXT-G{color: var(--COLOR-GOLD);}.TEXT-W{color: var(--COLOR-WHITE);}
 
 a{text-decoration: none;} a:hover{color: var(--COLOR-GOLD);}
 
 .FIG1{border-radius: 50%;}
-.FIG2{border-radius: 10px;}
 
-figure{position: relative;}figcaption{position: absolute;top: 17.5px;left: -5px;}figcaption.DECO{min-width: 90px;}
+figure{position: relative;}
+figcaption{position: absolute;top: 17.5px;left: -5px;}
+figcaption.DECO{min-width: 90px;}
