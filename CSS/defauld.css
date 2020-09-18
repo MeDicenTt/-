@@ -1,11 +1,17 @@
 /* DEFAULD: */
-*{padding: 0; margin: 0;}
+*{padding: 0; margin: 0;text-decoration: none;list-style: none;}
 
 body{
   background-color: rgba(0, 0, 0, 0.863);color: white;margin: auto;width: 80vw; min-width: 80vw; max-width: 80vw; height: 100%; min-height: 100vh; max-height: 100%; 
 }
 
-header,main,footer{ border: solid rgb(255, 255, 255) 2px; border-radius:15px ; -webkit-border-radius:15px ; -moz-border-radius:15px ; -ms-border-radius:15px ; -o-border-radius:15px ;}
+header,main,footer{ border: solid rgb(255, 255, 255) 2px; border-radius:15px ; -webkit-border-radius:15px ; -moz-border-radius:15px ; -ms-border-radius:15px ; -o-border-radius:15px ;margin-bottom: 5px;}
+
+header{text-align: center;}
+main{min-height: 400px;}
+
+.mensaje{ border-radius: 15px;  background: rgba(0, 0, 0, 0.433);  margin-bottom: 15px;  -webkit-border-radius: 15px;  -moz-border-radius: 15px;  -ms-border-radius: 15px;  -o-border-radius: 15px;  padding: 10px;}
+.mensaje>p{  text-align: justify;}
 
 .xsm1{width: 20px;height: 20px;min-width: 20px;min-height: 20px;max-width: 20px;max-height: 20px;}
 .xsm2{width: 20px;height: 15px;min-width: 20px;min-height: 15px;max-width: 20px;max-height: 15px;}
@@ -13,14 +19,18 @@ header,main,footer{ border: solid rgb(255, 255, 255) 2px; border-radius:15px ; -
 .full{width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%;}
 
 :root{--COLOR-GOLD: #ffc526;--COLOR-WHITE:#ffffff;}
-:root{--FIRMA:url(https://raw.githubusercontent.com/MeDicenTt/Folder/master/IMG/FIRMA.png);--DECO:url(https://raw.githubusercontent.com/MeDicenTt/Folder/master/IMG/DECO.webp);--BOX:url(https://raw.githubusercontent.com/MeDicenTt/Folder/master/IMG/BOX.webp);}
+:root{--FIRMA:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/FIRMA.png);--DECO:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/DECO.webp);--BOX:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/BOX.webp);--MAIN:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/MAIN.webp)}
 
 .FIRMA{box-sizing: border-box;background-image: var(--FIRMA);background-repeat: no-repeat;background-size: 100% 100%;}
 .WS{box-sizing: border-box;background-image: var(--WS);background-repeat: no-repeat;background-size: 100% 100%;}
 .INSTAGRAM{box-sizing: border-box;background-image: var(--INSTAGRAM);background-repeat: no-repeat;background-size: 100% 100%;}
 .MAIL{box-sizing: border-box;background-image: var(--MAIL);background-repeat: no-repeat;background-size: 100% 100%;}
 .DECO{box-sizing: border-box;background-image: var(--DECO);background-repeat: no-repeat;background-size: 100% 100%;}
-.BOX{ box-sizing: border-box; background-image: var(--BOX); background-repeat: no-repeat; background-size: 100% 100%; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -ms-border-radius: 18px; -o-border-radius: 18px; }
+.BOX1{ box-sizing: border-box; background-image: var(--BOX); background-repeat: no-repeat; background-size: 100% 100%; transform:rotate(180deg) ; -webkit-transform:rotate(180deg) ; -moz-transform:rotate(180deg) ; -ms-transform:rotate(180deg) ; -o-transform:rotate(180deg) ; }
+.BOX2{box-sizing: border-box; background-image: var(--BOX); background-repeat: no-repeat; background-size: 100% 100%;}
+.MAIN{box-sizing: border-box; background-image: var(--MAIN); background-repeat: no-repeat; background-size: 100% 100%;}
+
+.NOROTATE{ transform:rotate(180deg) ; -webkit-transform:rotate(180deg) ; -moz-transform:rotate(180deg) ; -ms-transform:rotate(180deg) ; -o-transform:rotate(180deg) ;}
 
 .TEXT-G{color: var(--COLOR-GOLD);}.TEXT-W{color: var(--COLOR-WHITE);}
 
@@ -28,7 +38,5 @@ a{text-decoration: none;} a:hover{color: var(--COLOR-GOLD);}
 
 .FIG1{border-radius: 50%;}
 .FIG2{border-radius: 10px;}
-
-span{text-decoration: none;list-style: none;}
 
 figure{position: relative;}figcaption{position: absolute;top: 17.5px;left: -5px;}figcaption.DECO{min-width: 90px;}
