@@ -1,4 +1,5 @@
 /* DEFAULD: */
+
 *{padding: 0; margin: 0;text-decoration: none;list-style: none;}
 
 :root{--COLOR-GOLD: #ffc526;--COLOR-WHITE:#ffffff;}
@@ -18,9 +19,11 @@ header,main,footer{ border: solid rgb(255, 255, 255) 2px; border-radius:15px ; -
 .NOROTATE{ transform:rotate(180deg) ; -webkit-transform:rotate(180deg) ; -moz-transform:rotate(180deg) ; -ms-transform:rotate(180deg) ; -o-transform:rotate(180deg) ;}
 
 /* HEADER:*/
+
 header{text-align: center;}
 
 /* MAIN:*/
+
 main{min-height: 400px; padding: 8px;}
 
 .mensaje{ border-radius: 15px;  background: rgba(0, 0, 0, 0.433);  margin-bottom: 15px;  -webkit-border-radius: 15px;  -moz-border-radius: 15px;  -ms-border-radius: 15px;  -o-border-radius: 15px;  padding: 10px;}
@@ -43,6 +46,7 @@ figcaption.DECO{min-width: 90px;}
 
 
 /* IMAGENES: */
+
 .FIRMA{box-sizing: border-box;background-image: var(--FIRMA);background-repeat: no-repeat;background-size: 100% 100%;}
 .WS{box-sizing: border-box;background-image: var(--WS);background-repeat: no-repeat;background-size: 100% 100%;}
 .INSTAGRAM{box-sizing: border-box;background-image: var(--INSTAGRAM);background-repeat: no-repeat;background-size: 100% 100%;}
