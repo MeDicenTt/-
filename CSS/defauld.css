@@ -1,26 +1,35 @@
 /* DEFAULD: */
 *{padding: 0; margin: 0;text-decoration: none;list-style: none;}
 
+:root{--COLOR-GOLD: #ffc526;--COLOR-WHITE:#ffffff;}
+.TEXT-G{color: var(--COLOR-GOLD);}.TEXT-W{color: var(--COLOR-WHITE);}
+
+:root{--FIRMA:url(IMG/FIRMA.png);--DECO:url(IMG/DECO.webp);--BOX:url(IMG/BOX.webp);--MAIN:url(IMG/MAIN.webp)}
+
+.xsm1{width: 20px;height: 20px;min-width: 20px;min-height: 20px;max-width: 20px;max-height: 20px;}
+.xsm2{width: 20px;height: 15px;min-width: 20px;min-height: 15px;max-width: 20px;max-height: 15px;}
+.sm{width: 80px;height: 80px;min-width: 80px;min-height: 80px;max-width: 80px;max-height: 80px;}
+.full{width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%;}
+
 body{ background-color: rgba(0, 0, 0, 0.863);color: white;margin: auto;width: 80vw; min-width: 80vw; max-width: 80vw; height: 100%; min-height: 100vh; max-height: 100%;}
 
 header,main,footer{ border: solid rgb(255, 255, 255) 2px; border-radius:15px ; -webkit-border-radius:15px ; -moz-border-radius:15px ; -ms-border-radius:15px ; -o-border-radius:15px ;margin-bottom: 5px;}
 
+.NOROTATE{ transform:rotate(180deg) ; -webkit-transform:rotate(180deg) ; -moz-transform:rotate(180deg) ; -ms-transform:rotate(180deg) ; -o-transform:rotate(180deg) ;}
+
+/* HEADER:*/
 header{text-align: center;}
 
+/* MAIN:*/
 main{min-height: 400px; padding: 8px;}
 
 .mensaje{ border-radius: 15px;  background: rgba(0, 0, 0, 0.433);  margin-bottom: 15px;  -webkit-border-radius: 15px;  -moz-border-radius: 15px;  -ms-border-radius: 15px;  -o-border-radius: 15px;  padding: 10px;}
+
 .mensaje>p{ text-align: justify;}
-
-
-
-
-
-
 
 .proyecto{ border-radius:50% ; -webkit-border-radius:50% ; -moz-border-radius:50% ; -ms-border-radius:50% ; -o-border-radius:50% ; border:solid var(--COLOR-WHITE) 2px; display: inline;min-width: 50px;min-height: 50px;}
 
-
+/* FOOTER:*/
 
 
 
@@ -31,3 +40,14 @@ a{text-decoration: none;} a:hover{color: var(--COLOR-GOLD);}
 figure{position: relative;}
 figcaption{position: absolute;top: 17.5px;left: -5px;}
 figcaption.DECO{min-width: 90px;}
+
+
+/* IMAGENES: */
+.FIRMA{box-sizing: border-box;background-image: var(--FIRMA);background-repeat: no-repeat;background-size: 100% 100%;}
+.WS{box-sizing: border-box;background-image: var(--WS);background-repeat: no-repeat;background-size: 100% 100%;}
+.INSTAGRAM{box-sizing: border-box;background-image: var(--INSTAGRAM);background-repeat: no-repeat;background-size: 100% 100%;}
+.MAIL{box-sizing: border-box;background-image: var(--MAIL);background-repeat: no-repeat;background-size: 100% 100%;}
+.DECO{box-sizing: border-box;background-image: var(--DECO);background-repeat: no-repeat;background-size: 100% 100%;}
+.BOX1{ box-sizing: border-box; background-image: var(--BOX); background-repeat: no-repeat; background-size: 100% 100%; transform:rotate(180deg) ; -webkit-transform:rotate(180deg) ; -moz-transform:rotate(180deg) ; -ms-transform:rotate(180deg) ; -o-transform:rotate(180deg) ; }
+.BOX2{box-sizing: border-box; background-image: var(--BOX); background-repeat: no-repeat; background-size: 100% 100%;}
+.MAIN{box-sizing: border-box; background-image: var(--MAIN); background-repeat: no-repeat; background-size: 100% 100%;}
