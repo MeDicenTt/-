@@ -5,6 +5,8 @@ body{ background-color: rgba(0, 0, 0, 0.863);color: white;margin: auto;width: 80
 
 header,main,footer{ border: solid rgb(255, 255, 255) 2px; border-radius:15px ; -webkit-border-radius:15px ; -moz-border-radius:15px ; -ms-border-radius:15px ; -o-border-radius:15px ;margin-bottom: 5px;}
 
+header{text-align: center;}
+
 main{min-height: 400px; padding: 8px;}
 
 .mensaje{ border-radius: 15px;  background: rgba(0, 0, 0, 0.433);  margin-bottom: 15px;  -webkit-border-radius: 15px;  -moz-border-radius: 15px;  -ms-border-radius: 15px;  -o-border-radius: 15px;  padding: 10px;}
