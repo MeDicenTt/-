@@ -1,5 +1,3 @@
-/* DEFAULD: */
-
 *{padding: 0; margin: 0;text-decoration: none;list-style: none;}
 
 :root{--COLOR-GOLD: #ffc526;--COLOR-WHITE:#ffffff;}
@@ -18,11 +16,7 @@ header,main,footer{ border: solid rgb(255, 255, 255) 2px; border-radius:15px ; -
 
 .NOROTATE{ transform:rotate(180deg) ; -webkit-transform:rotate(180deg) ; -moz-transform:rotate(180deg) ; -ms-transform:rotate(180deg) ; -o-transform:rotate(180deg) ;}
 
-/* HEADER:*/
-
 header{text-align: center;}
-
-/* MAIN:*/
 
 main{min-height: 400px; padding: 8px;}
 
@@ -32,10 +26,6 @@ main{min-height: 400px; padding: 8px;}
 
 .proyecto{ border-radius:50% ; -webkit-border-radius:50% ; -moz-border-radius:50% ; -ms-border-radius:50% ; -o-border-radius:50% ; border:solid var(--COLOR-WHITE) 2px; display: inline;min-width: 50px;min-height: 50px;}
 
-/* FOOTER:*/
-
-
-
 a{text-decoration: none;} a:hover{color: var(--COLOR-GOLD);}
 
 .FIG1{border-radius: 50%;}
@@ -43,9 +33,6 @@ a{text-decoration: none;} a:hover{color: var(--COLOR-GOLD);}
 figure{position: relative;}
 figcaption{position: absolute;top: 17.5px;left: -5px;}
 figcaption.DECO{min-width: 90px;}
-
-
-/* IMAGENES: */
 
 .FIRMA{box-sizing: border-box;background-image: var(--FIRMA);background-repeat: no-repeat;background-size: 100% 100%;}
 .WS{box-sizing: border-box;background-image: var(--WS);background-repeat: no-repeat;background-size: 100% 100%;}
