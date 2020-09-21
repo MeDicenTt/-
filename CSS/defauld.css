@@ -16,8 +16,6 @@ header,main,footer{ border: solid rgb(255, 255, 255) 2px; border-radius:15px ; -
 
 .NOROTATE{ transform:rotate(180deg) ; -webkit-transform:rotate(180deg) ; -moz-transform:rotate(180deg) ; -ms-transform:rotate(180deg) ; -o-transform:rotate(180deg) ;}
 
-/* HEADER:*/
-
 header{text-align: center;}
 
 main{min-height: 400px; padding: 8px;}
@@ -41,6 +39,6 @@ figcaption.DECO{min-width: 90px;}
 .INSTAGRAM{box-sizing: border-box;background-image: var(--INSTAGRAM);background-repeat: no-repeat;background-size: 100% 100%;}
 .MAIL{box-sizing: border-box;background-image: var(--MAIL);background-repeat: no-repeat;background-size: 100% 100%;}
 .DECO{box-sizing: border-box;background-image: var(--DECO);background-repeat: no-repeat;background-size: 100% 100%;}
-.BOX1{ box-sizing: border-box; background-image: var(--BOX); background-repeat: no-repeat; background-size: 100% 100%; transform:rotate(180deg) ; -webkit-transform:rotate(180deg) ; -moz-transform:rotate(180deg) ; -ms-transform:rotate(180deg) ; -o-transform:rotate(180deg) ; }
+.BOX1{ box-sizing: border-box; background-image: var(--BOX); background-repeat: no-repeat; background-size: 100% 100%; transform:rotate(180deg) ; -webkit-transform:rotate(180deg) ; -moz-transform:rotate(180deg) ; -ms-transform:rotate(180deg) ; -o-transform:rotate(180deg) ;}
 .BOX2{box-sizing: border-box; background-image: var(--BOX); background-repeat: no-repeat; background-size: 100% 100%;}
 .MAIN{box-sizing: border-box; background-image: var(--MAIN); background-repeat: no-repeat; background-size: 100% 100%;}
