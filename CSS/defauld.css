@@ -3,7 +3,7 @@
 :root{--COLOR-GOLD: #ffc526;--COLOR-WHITE:#ffffff;}
 .TEXT-G{color: var(--COLOR-GOLD);}.TEXT-W{color: var(--COLOR-WHITE);}
 
-:root{--FIRMA:url(/IMG/FIRMA.png);--DECO:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/DECO.webp);--BOX:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/BOX.webp);--MAIN:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/MAIN.webp)}
+:root{--FIRMA:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/FIRMA.png);--DECO:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/DECO.webp);--BOX:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/BOX.webp);--MAIN:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/MAIN.webp)}
 
 .FIRMA{box-sizing: border-box;background-image: var(--FIRMA);background-repeat: no-repeat;background-size: 100% 100%;}
 .WS{box-sizing: border-box;background-image: var(--WS);background-repeat: no-repeat;background-size: 100% 100%;}
