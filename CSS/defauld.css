@@ -5,7 +5,7 @@
 
 :root{--FIRMA:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/FIRMA.png);--DECO:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/DECO.webp);--BOX:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/BOX.webp);--MAIN:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/MAIN.webp)}
 
-.FIRMA{box-sizing: border-box;background-image: var(--FIRMA);background-repeat: no-repeat;background-size: 100% 100%;}
+.FIRMA{ box-sizing: border-box; background-image: var(--FIRMA); background-repeat: no-repeat; background-size: 100% 100%; border-radius:50% ; -webkit-border-radius:50% ; -moz-border-radius:50% ; -ms-border-radius:50% ; -o-border-radius:50% ; }
 .WS{box-sizing: border-box;background-image: var(--WS);background-repeat: no-repeat;background-size: 100% 100%;}
 .INSTAGRAM{box-sizing: border-box;background-image: var(--INSTAGRAM);background-repeat: no-repeat;background-size: 100% 100%;}
 .MAIL{box-sizing: border-box;background-image: var(--MAIL);background-repeat: no-repeat;background-size: 100% 100%;}
@@ -37,7 +37,7 @@ main{min-height: 400px; padding: 8px;}
 
 a{text-decoration: none;} a:hover{color: var(--COLOR-GOLD);}
 
-.FIG1{border-radius: 50%;}
+
 
 figure{position: relative;}
 figcaption{position: absolute;top: 17.5px;left: -5px;}
