@@ -3,7 +3,16 @@
 :root{--COLOR-GOLD: #ffc526;--COLOR-WHITE:#ffffff;}
 .TEXT-G{color: var(--COLOR-GOLD);}.TEXT-W{color: var(--COLOR-WHITE);}
 
-:root{--FIRMA:url(IMG/FIRMA.png);--DECO:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/DECO.webp);--BOX:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/BOX.webp);--MAIN:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/MAIN.webp)}
+:root{--FIRMA:url(/IMG/FIRMA.png);--DECO:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/DECO.webp);--BOX:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/BOX.webp);--MAIN:url(https://raw.githubusercontent.com/MeDicenTt/-/master/IMG/MAIN.webp)}
+
+.FIRMA{box-sizing: border-box;background-image: var(--FIRMA);background-repeat: no-repeat;background-size: 100% 100%;}
+.WS{box-sizing: border-box;background-image: var(--WS);background-repeat: no-repeat;background-size: 100% 100%;}
+.INSTAGRAM{box-sizing: border-box;background-image: var(--INSTAGRAM);background-repeat: no-repeat;background-size: 100% 100%;}
+.MAIL{box-sizing: border-box;background-image: var(--MAIL);background-repeat: no-repeat;background-size: 100% 100%;}
+.DECO{box-sizing: border-box;background-image: var(--DECO);background-repeat: no-repeat;background-size: 100% 100%;}
+.BOX1{ box-sizing: border-box; background-image: var(--BOX); background-repeat: no-repeat; background-size: 100% 100%; transform:rotate(180deg) ; -webkit-transform:rotate(180deg) ; -moz-transform:rotate(180deg) ; -ms-transform:rotate(180deg) ; -o-transform:rotate(180deg) ; }
+.BOX2{box-sizing: border-box; background-image: var(--BOX); background-repeat: no-repeat; background-size: 100% 100%;}
+.MAIN{box-sizing: border-box; background-image: var(--MAIN); background-repeat: no-repeat; background-size: 100% 100%;}
 
 .xsm1{width: 20px;height: 20px;min-width: 20px;min-height: 20px;max-width: 20px;max-height: 20px;}
 .xsm2{width: 20px;height: 15px;min-width: 20px;min-height: 15px;max-width: 20px;max-height: 15px;}
@@ -33,12 +42,3 @@ a{text-decoration: none;} a:hover{color: var(--COLOR-GOLD);}
 figure{position: relative;}
 figcaption{position: absolute;top: 17.5px;left: -5px;}
 figcaption.DECO{min-width: 90px;}
-
-.FIRMA{box-sizing: border-box;background-image: var(--FIRMA);background-repeat: no-repeat;background-size: 100% 100%;}
-.WS{box-sizing: border-box;background-image: var(--WS);background-repeat: no-repeat;background-size: 100% 100%;}
-.INSTAGRAM{box-sizing: border-box;background-image: var(--INSTAGRAM);background-repeat: no-repeat;background-size: 100% 100%;}
-.MAIL{box-sizing: border-box;background-image: var(--MAIL);background-repeat: no-repeat;background-size: 100% 100%;}
-.DECO{box-sizing: border-box;background-image: var(--DECO);background-repeat: no-repeat;background-size: 100% 100%;}
-.BOX1{ box-sizing: border-box; background-image: var(--BOX); background-repeat: no-repeat; background-size: 100% 100%; transform:rotate(180deg) ; -webkit-transform:rotate(180deg) ; -moz-transform:rotate(180deg) ; -ms-transform:rotate(180deg) ; -o-transform:rotate(180deg) ; }
-.BOX2{box-sizing: border-box; background-image: var(--BOX); background-repeat: no-repeat; background-size: 100% 100%;}
-.MAIN{box-sizing: border-box; background-image: var(--MAIN); background-repeat: no-repeat; background-size: 100% 100%;}
