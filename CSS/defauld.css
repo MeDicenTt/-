@@ -42,3 +42,11 @@ a{text-decoration: none;} a:hover{color: var(--COLOR-GOLD);}
 figure{position: relative;}
 figcaption{position: absolute;top: 17.5px;left: -5px;}
 figcaption.DECO{min-width: 90px;}
+
+
+.FLEXBOX-ROW-W{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
