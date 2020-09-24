@@ -29,7 +29,7 @@ header{text-align: center;}
 
 main{min-height: 400px; padding: 8px;}
 
-.mensaje{ border-radius: 15px;  background: rgba(0, 0, 0, 0.433);  margin-bottom: 15px;  -webkit-border-radius: 15px;  -moz-border-radius: 15px;  -ms-border-radius: 15px;  -o-border-radius: 15px;  padding: 10px;}
+.mensaje{ border-radius: 15px;  background: rgba(0, 0, 0, 0.433);  margin-bottom: 5px;  -webkit-border-radius: 15px;  -moz-border-radius: 15px;  -ms-border-radius: 15px;  -o-border-radius: 15px;  padding: 10px;}
 
 .mensaje>p{ text-align: justify;}
 
