@@ -24,8 +24,53 @@
   <meta name="og:url" content="https://medicentt.github.io/-/"/>
 </head>
 
+<script type="text/javascript">(function(d, t, e, m){
+    
+  // Async Rating-Widget initialization.
+  window.RW_Async_Init = function(){
+              
+      RW.init({
+          huid: "466682",
+          uid: "bfa9a4f84f79a9576f779cb37f5521a0",
+          source: "website",
+          options: {
+              "advanced": {
+                  "font": {
+                      "hover": {
+                          "color": "#ffd35b"
+                      },
+                      "bold": true,
+                      "color": "#ffc526",
+                      "type": "arial"
+                  }
+              },
+              "size": "medium",
+              "label": {
+                  "background": "#421f12a6"
+              },
+              "lng": "es",
+              "style": "flames",
+              "color":"#ffff",
+              "isDummy": false
+          } 
+      });
+      RW.render();
+  };
+      // Append Rating-Widget JavaScript library.
+  var rw, s = d.getElementsByTagName(e)[0], id = "rw-js",
+      l = d.location, ck = "Y" + t.getFullYear() + 
+      "M" + t.getMonth() + "D" + t.getDate(), p = l.protocol,
+      f = ((l.search.indexOf("DBG=") > -1) ? "" : ".min"),
+      a = ("https:" == p ? "secure." + m + "js/" : "js." + m);
+  if (d.getElementById(id)) return;              
+  rw = d.createElement(e);
+  rw.id = id; rw.async = true; rw.type = "text/javascript";
+  rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
+  s.parentNode.insertBefore(rw, s);
+  }(document, new Date(), "script", "rating-widget.com/"));</script>
+
 <body>
-<div class="base">
+  <div class="base">
   <header style="text-align: center;" class="BOX1">
       <div class="NOROTATE">
         <h1>MeDicenTt</h1>
@@ -65,9 +110,11 @@
             </td>
     
             <td style="padding: 0px 8px 0px 8px; border-left: 2px solid var(--COLOR-GOLD)">
-              <p><b><span style="color: var(--COLOR-GOLD)">Jose R. Alvarado P.</span></b></p>
+              <p style="display: inline-block;" ><b><span style="color: var(--COLOR-GOLD)">Jose R. Alvarado P. </span></b></p>
 
-              <p><span class="TEXT-W">Tecnico IT - Trabajador outsourcing</span></p><p><span class="TEXT-G">Ubicacion: </span><span class="TEXT-W">Urb. Pedro Manuel Arcaya Av. Este Manzana H1 Casa #51</span></p>
+              <div class="rw-ui-container"></div>
+
+              <p><span class="TEXT-W">Tecnico IT - Outsourcing</span></p><p><span class="TEXT-G">Ubicacion: </span><span class="TEXT-W">Urb. Pedro Manuel Arcaya Av. Este Manzana H1 Casa #51</span></p>
     
               <p>
                 <span class="TEXT-G">Telf.: <a class="TEXT-W" href="Telf: +58 4126646078" target="_blank"><span> +58 4126646078 </span></a><img src="IMG/WS.png" class="xsm1"></span>
@@ -82,6 +129,7 @@
       </table>
     </div>
   </footer>
-</div>
+  </div>
 </body>
+
 </html>
