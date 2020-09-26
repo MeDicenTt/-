@@ -62,7 +62,7 @@ figcaption.DECO{min-width: 90px;}
 /*movil*/
 /*Default*/
 @media (max-width: 600px)and (orientation:portrait) {
-.WORKING{width: 220px;height: 220px;min-width: 220px;min-height: 220px;max-width: 220px;max-height: 220px;margin-top: 20px;}
+.WORKING{width: 220px;height: 220px;min-width: 220px;min-height: 220px;max-width: 220px;max-height: 220px;margin-top: 10px;}
 }
 /*landscape*/
 @media (min-width: 601px) and (max-width: 1000px) and (orientation:landscape) {
