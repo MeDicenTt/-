@@ -52,24 +52,18 @@ figcaption.DECO{min-width: 90px;}
 }
 
 /*Tablet*/
-/*Portrait*/
+/*Defauld*/
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
-  body{background: orange;}
 }
-
 /*landscape*/
 @media (min0-width: 991.98px) and (max-width: 1000px)and (orientation:landscape) {
-  body{background: blue;}
 }
-/*fin tablet*/
 
 /*movil*/
-/*Portrait*/
 /*Default*/
 @media (max-width: 600px)and (orientation:portrait) {
-  body{background: green;}
+.WORKING{width: 220px;height: 220px;min-width: 220px;min-height: 220px;max-width: 220px;max-height: 220px;margin-top: 20px;}
 }
 /*landscape*/
 @media (min-width: 601px) and (max-width: 1000px) and (orientation:landscape) {
-  body{background: black;}
 }
