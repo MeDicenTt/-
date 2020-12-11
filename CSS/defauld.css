@@ -35,6 +35,8 @@ main{min-height: 400px; padding: 8px;}
 
 .proyecto{ border-radius:50% ; -webkit-border-radius:50% ; -moz-border-radius:50% ; -ms-border-radius:50% ; -o-border-radius:50% ; border:solid var(--COLOR-WHITE) 2px; display: inline;min-width: 50px;min-height: 50px;}
 
+.CENTER{justify-content: center;}
+
 a{text-decoration: none;} a:hover{color: var(--COLOR-GOLD);}
 
 
@@ -44,12 +46,12 @@ figcaption{position: absolute;top: 17.5px;left: -5px;}
 figcaption.DECO{min-width: 90px;}
 
 
-.FLEXBOX-ROW-W{
+/* .FLEXBOX-ROW-W{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
 
 /*Tablet*/
 /*Defauld*/

@@ -2,22 +2,16 @@
 /*? CAJA FLEX  /  FLEX-BOX */
 /* DEFAULD: NOTE: DEFAULD: */
 
-.FLEX-BOX{
-  display: flex;
-}
+.FLEX-BOX{display: flex;}
 
-
-
-/* ? MANTENER EL ORDEN   NOTE:*/
-
-
-
+ /* ! MANTENER EL ORDEN */
 
 /* REVIEW: WRAP */
 .FLEXBOX-ROW-W{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .FLEXBOX-COLUMN-W{
   display: flex;
@@ -57,6 +51,3 @@
   flex-direction:column-reverse;
   flex-wrap: nowrap;
 }
-
-
-/* DEFAULD: NOTE: DEFAULD: */
